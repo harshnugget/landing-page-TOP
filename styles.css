@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-item1 {
+    display: flex;
+}
+
+.header-item2 {
+    display: flex;
+}
+
+.header-links {
+    display: flex; 
+    text-decoration: none;
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* Push footer to bottom */
+    flex: 1;
+}
+
+.images-container {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    height: 30px;
+    background-color: #e5e7eb;
 }
