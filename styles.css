@@ -11,8 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    /* Stretch body to viewport height for footer placement */
-    height: 100vh;
+    height: 100vh;  /* Stretch body to viewport height for footer placement */
 }
 
 .header {
@@ -74,9 +73,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Push footer to bottom */
-    flex: 1;
     margin-bottom: 60px;
+    flex: 1;    /* Push footer to bottom */
 }
 
 .content h2 {
@@ -110,7 +108,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     padding: 80px 0;
+    margin: 60px 0;
 }
 
 .quote-container div {
@@ -132,7 +132,6 @@ body {
 .signup-container {
     display: flex;
     justify-content: center;
-    margin: 60px;
 }
 
 .signup-contents {
@@ -141,9 +140,8 @@ body {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 800px;
     padding: 50px 80px;
+    gap: 200px;
 }
 
 footer {
@@ -161,4 +159,9 @@ footer {
     border-radius: 10px;
     height: 35px;
     width: 150px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: #3273db;
 }
