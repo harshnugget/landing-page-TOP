@@ -102,6 +102,7 @@ body {
     border-color: #3882F6;
     width: 100%;
     aspect-ratio: 1 / 1;
+    margin-bottom: 8px;
 }
 
 .quote-container {
@@ -113,15 +114,19 @@ body {
 }
 
 .quote-container div {
-    max-width: 500px;
-}
-
-#quote {
     max-width: 750px;
 }
 
-#quoter {
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quotee {
     text-align: right;
+    font-weight: 700;
+    margin-right: 50px;
 }
 
 .signup-container {
